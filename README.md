@@ -25,5 +25,7 @@
 APIは[郵便番号検索API][zip]を利用させてもらっています。  
 利用についてはそちらのサイトの規約に従ってください。
 
+<a href="http://zip.cgis.biz/">郵便番号検索API</a>
+
 [AFN]:https://github.com/AFNetworking/AFNetworking
 [zip]:http://zip.cgis.biz
