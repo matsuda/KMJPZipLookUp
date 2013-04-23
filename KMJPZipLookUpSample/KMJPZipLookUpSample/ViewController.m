@@ -11,7 +11,7 @@
 #import "KMJPZipLookUpResponse.h"
 #import "KMJPZipLookUpAddressListViewController.h"
 
-@interface ViewController () <UIPopoverControllerDelegate> {
+@interface ViewController () <UIPopoverControllerDelegate, UITextFieldDelegate> {
     UIPopoverController *_popover;
     // ZipSearch
     KMJPZipLookUpResponse *_response;
@@ -34,6 +34,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.textField.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -173,6 +174,17 @@
         _popover = nil;
     }
 }
+
+#pragma mark - UITextFieldDelegate
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [self.textField resignFirstResponder];
+    [self requestAPIWithZipcode:textField.text];
+    return YES;
+}
+
+#pragma mark - Indicator
 
 - (void)showIndicator
 {
