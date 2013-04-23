@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface KMJPZipLookUpParser : NSObject
+@class KMJPZipLookUpResponse;
+
+@interface KMJPZipLookUpParser : NSObject <NSXMLParserDelegate>
+
+@property (readonly, nonatomic) KMJPZipLookUpResponse *response;
+@property (readonly, nonatomic) NSError *error;
 
 @end

@@ -75,6 +75,7 @@
 		0EE568B11726319500C48C1F /* KMJPZipLookUpAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMJPZipLookUpAddress.m; sourceTree = "<group>"; };
 		0EE568B3172631D700C48C1F /* KMJPZipLookUpAddressListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMJPZipLookUpAddressListViewController.h; sourceTree = "<group>"; };
 		0EE568B4172631D800C48C1F /* KMJPZipLookUpAddressListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMJPZipLookUpAddressListViewController.m; sourceTree = "<group>"; };
+		0EE568B61726357900C48C1F /* KMJPZipLookUp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMJPZipLookUp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +184,7 @@
 		0EE568A6172630F700C48C1F /* KMJPZipLookUp */ = {
 			isa = PBXGroup;
 			children = (
+				0EE568B61726357900C48C1F /* KMJPZipLookUp.h */,
 				0EE568A71726311A00C48C1F /* KMJPZipLookUpClient.h */,
 				0EE568A81726311A00C48C1F /* KMJPZipLookUpClient.m */,
 				0EE568AA1726316D00C48C1F /* KMJPZipLookUpParser.h */,

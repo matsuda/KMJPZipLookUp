@@ -6,8 +6,18 @@
 //  Copyright (c) 2013年 matsuda. All rights reserved.
 //
 
+#import "KMJPZipLookUp.h"
+#import "KMJPZipLookUpResponse.h"
 #import "AFHTTPClient.h"
 
 @interface KMJPZipLookUpClient : AFHTTPClient
+
++ (instancetype)sharedClient;
+
+- (void)lookUpWithZipcode:(NSString *)zipcode
+                  success:(void (^)(AFHTTPRequestOperation *, KMJPZipLookUpResponse *))success
+                  failure:(void (^)(AFHTTPRequestOperation *, NSError *))failure;
+
+- (BOOL)validateZipcode:(NSString *)zipcode withError:(NSError *__autoreleasing*)error;
 
 @end

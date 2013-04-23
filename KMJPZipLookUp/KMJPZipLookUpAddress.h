@@ -10,4 +10,13 @@
 
 @interface KMJPZipLookUpAddress : NSObject
 
+@property (copy, nonatomic) NSString *prefecture;
+@property (copy, nonatomic) NSString *city;
+@property (copy, nonatomic) NSString *address;
+
+// prefecture + city + address
+- (NSString *)fullAddress;
+// city + address
+- (NSString *)town;
+
 @end

@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+extern NSString *kKMJPZipLookUpAddressListDidSelectNotification;
+extern NSString *kKMJPZipLookUpAddressListResultsKey;
+
+@class KMJPZipLookUpResponse;
+
 @interface KMJPZipLookUpAddressListViewController : UITableViewController
+
+@property (strong, nonatomic) KMJPZipLookUpResponse *response;
 
 @end
