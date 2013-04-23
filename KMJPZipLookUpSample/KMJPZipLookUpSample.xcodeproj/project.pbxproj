@@ -30,6 +30,11 @@
 		0EE568AF1726318300C48C1F /* KMJPZipLookUpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE568AE1726318300C48C1F /* KMJPZipLookUpResponse.m */; };
 		0EE568B21726319500C48C1F /* KMJPZipLookUpAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE568B11726319500C48C1F /* KMJPZipLookUpAddress.m */; };
 		0EE568B5172631D800C48C1F /* KMJPZipLookUpAddressListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE568B4172631D800C48C1F /* KMJPZipLookUpAddressListViewController.m */; };
+		0EE568B81726394500C48C1F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE568B71726394500C48C1F /* MainStoryboard_iPhone.storyboard */; };
+		0EE568BA1726395A00C48C1F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE568B91726395A00C48C1F /* MainStoryboard_iPad.storyboard */; };
+		0EE568BD172639D200C48C1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE568BC172639D200C48C1F /* ViewController.m */; };
+		0EE568BF17263E3100C48C1F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE568BE17263E3100C48C1F /* SystemConfiguration.framework */; };
+		0EE568C117263E3600C48C1F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE568C017263E3600C48C1F /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +81,12 @@
 		0EE568B3172631D700C48C1F /* KMJPZipLookUpAddressListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMJPZipLookUpAddressListViewController.h; sourceTree = "<group>"; };
 		0EE568B4172631D800C48C1F /* KMJPZipLookUpAddressListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMJPZipLookUpAddressListViewController.m; sourceTree = "<group>"; };
 		0EE568B61726357900C48C1F /* KMJPZipLookUp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMJPZipLookUp.h; sourceTree = "<group>"; };
+		0EE568B71726394500C48C1F /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0EE568B91726395A00C48C1F /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0EE568BB172639D200C48C1F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0EE568BC172639D200C48C1F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0EE568BE17263E3100C48C1F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0EE568C017263E3600C48C1F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE568C117263E3600C48C1F /* MobileCoreServices.framework in Frameworks */,
+				0EE568BF17263E3100C48C1F /* SystemConfiguration.framework in Frameworks */,
 				0EE567E017262DFD00C48C1F /* UIKit.framework in Frameworks */,
 				0EE567E217262DFD00C48C1F /* Foundation.framework in Frameworks */,
 				0EE567E417262DFD00C48C1F /* CoreGraphics.framework in Frameworks */,
@@ -113,6 +126,8 @@
 		0EE567DE17262DFD00C48C1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0EE568C017263E3600C48C1F /* MobileCoreServices.framework */,
+				0EE568BE17263E3100C48C1F /* SystemConfiguration.framework */,
 				0EE567DF17262DFD00C48C1F /* UIKit.framework */,
 				0EE567E117262DFD00C48C1F /* Foundation.framework */,
 				0EE567E317262DFD00C48C1F /* CoreGraphics.framework */,
@@ -125,6 +140,10 @@
 			children = (
 				0EE567EE17262DFD00C48C1F /* AppDelegate.h */,
 				0EE567EF17262DFD00C48C1F /* AppDelegate.m */,
+				0EE568BB172639D200C48C1F /* ViewController.h */,
+				0EE568BC172639D200C48C1F /* ViewController.m */,
+				0EE568B71726394500C48C1F /* MainStoryboard_iPhone.storyboard */,
+				0EE568B91726395A00C48C1F /* MainStoryboard_iPad.storyboard */,
 				0EE567E617262DFD00C48C1F /* Supporting Files */,
 			);
 			path = KMJPZipLookUpSample;
@@ -255,6 +274,8 @@
 				0EE567F217262DFD00C48C1F /* Default.png in Resources */,
 				0EE567F417262DFD00C48C1F /* Default@2x.png in Resources */,
 				0EE567F617262DFD00C48C1F /* Default-568h@2x.png in Resources */,
+				0EE568B81726394500C48C1F /* MainStoryboard_iPhone.storyboard in Resources */,
+				0EE568BA1726395A00C48C1F /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +302,7 @@
 				0EE568AF1726318300C48C1F /* KMJPZipLookUpResponse.m in Sources */,
 				0EE568B21726319500C48C1F /* KMJPZipLookUpAddress.m in Sources */,
 				0EE568B5172631D800C48C1F /* KMJPZipLookUpAddressListViewController.m in Sources */,
+				0EE568BD172639D200C48C1F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
