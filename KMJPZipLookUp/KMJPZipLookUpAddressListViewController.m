@@ -8,7 +8,6 @@
 
 #import "KMJPZipLookUpAddressListViewController.h"
 #import "KMJPZipLookUpResponse.h"
-#import "KMJPZipLookUpAddress.h"
 
 #define kAddressFont                    [UIFont boldSystemFontOfSize:16]
 

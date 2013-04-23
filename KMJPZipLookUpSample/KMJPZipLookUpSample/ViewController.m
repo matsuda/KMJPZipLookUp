@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "KMJPZipLookUpClient.h"
-#import "KMJPZipLookUpResponse.h"
 #import "KMJPZipLookUpAddressListViewController.h"
 
 @interface ViewController () <UIPopoverControllerDelegate, UITextFieldDelegate> {
