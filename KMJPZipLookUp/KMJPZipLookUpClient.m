@@ -7,7 +7,6 @@
 //
 
 #import "KMJPZipLookUpClient.h"
-#import "KMJPZipLookUpParser.h"
 #import "AFXMLRequestOperation.h"
 
 static NSString * const kKMJPZipLookUpBaseURLString = @"http://zip.cgis.biz/xml/";

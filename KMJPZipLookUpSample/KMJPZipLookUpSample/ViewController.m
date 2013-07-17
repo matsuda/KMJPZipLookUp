@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "KMJPZipLookUpClient.h"
+#import "KMJPZipLookUp.h"
 #import "KMJPZipLookUpAddressListViewController.h"
 
 @interface ViewController () <UIPopoverControllerDelegate, UITextFieldDelegate> {
@@ -170,6 +170,7 @@
 - (void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController
 {
     if ([popoverController isEqual:_popover]) {
+        [[NSNotificationCenter defaultCenter] removeObserver:self name:kKMJPZipLookUpAddressListDidSelectNotification object:nil];
         _popover = nil;
     }
 }

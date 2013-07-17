@@ -6,8 +6,9 @@
 //  Copyright (c) 2013年 matsuda. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "KMJPZipLookUpAddress.h"
+#import "KMJPZipLookUp.h"
+
+@class KMJPZipLookUpAddress;
 
 @interface KMJPZipLookUpResponse : NSObject
 

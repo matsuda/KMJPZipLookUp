@@ -7,7 +7,6 @@
 //
 
 #import "KMJPZipLookUpParser.h"
-#import "KMJPZipLookUpResponse.h"
 
 @interface KMJPZipLookUpParser () {
     // ZipSearch

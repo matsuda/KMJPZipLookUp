@@ -7,8 +7,10 @@
 //
 
 #import "KMJPZipLookUp.h"
-#import "KMJPZipLookUpResponse.h"
 #import "AFHTTPClient.h"
+
+@class AFHTTPRequestOperation;
+@class KMJPZipLookUpResponse;
 
 @interface KMJPZipLookUpClient : AFHTTPClient
 

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KMJPZipLookUp.h"
 
 extern NSString *kKMJPZipLookUpAddressListDidSelectNotification;
 extern NSString *kKMJPZipLookUpAddressListResultsKey;

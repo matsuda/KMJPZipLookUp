@@ -6,7 +6,7 @@
 //  Copyright (c) 2013年 matsuda. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "KMJPZipLookUp.h"
 
 @class KMJPZipLookUpResponse;
 
